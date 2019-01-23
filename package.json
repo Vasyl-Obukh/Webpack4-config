@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test": "jest"
   },
   "author": "Vasyl Obukh",
   "license": "MIT",
@@ -26,6 +27,7 @@
     "imagemin": "^6.0.0",
     "imagemin-webpack-plugin": "^2.3.0",
     "img-loader": "^3.0.1",
+    "jest": "^23.6.0",
     "node-sass": "^4.11.0",
     "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
